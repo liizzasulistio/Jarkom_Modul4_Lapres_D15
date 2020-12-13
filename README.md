@@ -59,7 +59,7 @@ Setelah langkah diatas, diperoleh informasi seperti ini :
 4. Menghitung pembagian IP dengan pohon berdasarkan penggabungan subnet.
 ![Pohon_CIDR](https://user-images.githubusercontent.com/58472359/102002804-a755a880-3d32-11eb-8e39-b6d4a7dbc285.png)
 5. Membuat tabel untuk pembagian IP yang telah diperoleh.
-![Tabel1](https://user-images.githubusercontent.com/58472359/102002802-a58be500-3d32-11eb-817b-d71613177904.png)
-![Tabel2](https://user-images.githubusercontent.com/58472359/102002803-a6247b80-3d32-11eb-92eb-8aa021a6c6f1.png)
-6. Melakukan routing pada Cisco Packet Tracer
+![Tabel1](https://user-images.githubusercontent.com/58472359/102002803-a6247b80-3d32-11eb-92eb-8aa021a6c6f1.png)
+![Tabel2](https://user-images.githubusercontent.com/58472359/102002802-a58be500-3d32-11eb-817b-d71613177904.png)
+6. Melakukan routing pada Cisco Packet Tracer, atau dapat dilihat pada [file berikut ini](https://github.com/liizzasulistio/Jarkom_Modul4_Lapres_D15/blob/main/praktikum_CIDR_revisi.pkt)
 ![CIDR_CPT](https://user-images.githubusercontent.com/58472359/102002101-cd2b7f00-3d2b-11eb-9c23-4a2269a0710a.png)
