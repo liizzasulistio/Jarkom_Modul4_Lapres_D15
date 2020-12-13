@@ -23,9 +23,7 @@
 | A11  | 2  | /30 |
 | A12  | 252  | /24 |
 | A13  | 721  | /22 |
-| *Total  | 5841  | /19* |
-
-![image](https://user-images.githubusercontent.com/24503760/101630405-68370700-3a55-11eb-81bb-0bfad6b0b586.png)
+| *Total*  | *5841*  | */19* |
 
 3. Untuk masing-masing subnet, hitung berapa length dari masing-masing subnet. Penghitungan panjang didapat dengan mengecek banyak IP. Sebagai contoh, untuk A01, IP yang dibutuhkan ada 1001. Maka lengthnya adalah 22, karena untuk length 23 IP tersedia hanya 510, sehingga tidak mencukupi. 
 
