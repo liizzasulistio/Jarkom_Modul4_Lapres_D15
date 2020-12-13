@@ -1,8 +1,10 @@
 # Jarkom_Modul4_Lapres_D15
-
-## VLSM
-1. Bagi jaringan pada soal menjadi beberapa subnet. Berikut adalah subnet-subnet hasil pembagian kami :
-![https://user-images.githubusercontent.com/24503760/101630157-0f676e80-3a55-11eb-891f-b82d75387552.png](https://user-images.githubusercontent.com/24503760/101630157-0f676e80-3a55-11eb-891f-b82d75387552.png)
+- Ammar Alifian Fahdan (05111840000007)
+- Lii'zza Aisyah Putri Sulistio (05111840000073)
+---
+## VLSM (Variable Net Subnet Masking)
+1. Bagi jaringan pada soal menjadi beberapa subnet. Berikut adalah subnet-subnet hasil pembagian kami:
+![VLSM](https://user-images.githubusercontent.com/58472359/102002547-25fd1680-3d30-11eb-94b6-ab995aa42cfb.png)
 
 2. Dari subnet-subnet tersebut, hitung berapa IP yang dibutuhkan untuk masing-masing jaringan.
 
