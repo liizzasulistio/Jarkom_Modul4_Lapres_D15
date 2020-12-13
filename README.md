@@ -8,9 +8,9 @@
 
 2. Dari subnet-subnet tersebut, hitung berapa IP yang dibutuhkan untuk masing-masing jaringan.
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Subnet  | Jumlah IP | Submask |
+| :-----: | :-------: | :-----: |
+| A01  | 1001  | /22 |
 | Content Cell  | Content Cell  |
 
 
