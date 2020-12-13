@@ -7,6 +7,7 @@
 ![VLSM](https://user-images.githubusercontent.com/58472359/102002547-25fd1680-3d30-11eb-94b6-ab995aa42cfb.png)
 
 2. Dari subnet-subnet tersebut, hitung berapa IP yang dibutuhkan untuk masing-masing jaringan.
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
