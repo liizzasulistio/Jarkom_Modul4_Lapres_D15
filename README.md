@@ -23,7 +23,7 @@
 | A11  | 2  | /30 |
 | A12  | 252  | /24 |
 | A13  | 721  | /22 |
-| **Total  | 5841  | /19** |
+| **Total**  | **5841**  | **/19** |
 
 3. Untuk masing-masing subnet, hitung berapa length dari masing-masing subnet. Penghitungan panjang didapat dengan mengecek banyak IP. Sebagai contoh, untuk A01, IP yang dibutuhkan ada 1001. Maka lengthnya adalah 22, karena untuk length 23 IP tersedia hanya 510, sehingga tidak mencukupi. 
 
@@ -37,3 +37,29 @@
 Setelah langkah diatas, diperoleh informasi seperti ini :
 
 ![image](https://user-images.githubusercontent.com/24503760/101633665-28265300-3a5a-11eb-9bf1-db78e8ed6e06.png)
+
+---
+## CIDR (Classless Inter Domain Routing)
+1.	Menentukan subnet pada topologi dan pemberian labelling netmask terhadap masing-masing subnet.
+![A](https://user-images.githubusercontent.com/58472359/102002093-c270ea00-3d2b-11eb-8740-4119fad54999.png)
+
+2.	Menggabungkan subnet paling bawah di dalam topologi atau subnet yang paling jauh dari internet. Langkah 2 ini diulangi sampai terbentuk subnet besar.
+    - Pembentukan subnet B
+    ![B](https://user-images.githubusercontent.com/58472359/102002094-c43aad80-3d2b-11eb-9ef5-deabff834354.png)
+    - Pembentukan subnet C
+    ![C](https://user-images.githubusercontent.com/58472359/102002095-c6047100-3d2b-11eb-833f-98f048f3d2b7.png)
+    - Pembentukan subnet D
+    ![D](https://user-images.githubusercontent.com/58472359/102002096-c7359e00-3d2b-11eb-85fc-cc46e75e8b33.png)
+    - Pembentukan subnet E
+    ![E](https://user-images.githubusercontent.com/58472359/102002098-c866cb00-3d2b-11eb-8a7b-734af81eed73.png)
+    - Pembentukan subnet F
+    ![F](https://user-images.githubusercontent.com/58472359/102002099-c997f800-3d2b-11eb-94ba-d6771786491b.png)
+3. Dari gambar di atas diperoleh subnet besar dengan submask /16, NID 192.168.0.0 dan netmask 255.255.0.0
+![G](https://user-images.githubusercontent.com/58472359/102002100-cac92500-3d2b-11eb-86f5-d706e1bd6593.png)
+4. Menghitung pembagian IP dengan pohon berdasarkan penggabungan subnet.
+![Pohon_CIDR](https://user-images.githubusercontent.com/58472359/102002804-a755a880-3d32-11eb-8e39-b6d4a7dbc285.png)
+5. Membuat tabel untuk pembagian IP yang telah diperoleh.
+![Tabel1](https://user-images.githubusercontent.com/58472359/102002802-a58be500-3d32-11eb-817b-d71613177904.png)
+![Tabel2](https://user-images.githubusercontent.com/58472359/102002803-a6247b80-3d32-11eb-92eb-8aa021a6c6f1.png)
+6. Melakukan routing pada Cisco Packet Tracer
+![CIDR_CPT](https://user-images.githubusercontent.com/58472359/102002101-cd2b7f00-3d2b-11eb-9c23-4a2269a0710a.png)
