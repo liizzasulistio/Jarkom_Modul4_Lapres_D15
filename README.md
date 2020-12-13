@@ -35,8 +35,8 @@
 6. Tentukan broadcast IPnya. Broadcast IP diperoleh dengan cara NID + wildcard. Wildcard dapat ditentukan oleh lengthnya.
 
 Setelah langkah diatas, diperoleh informasi seperti ini :
-
-![image](https://user-images.githubusercontent.com/24503760/101633665-28265300-3a5a-11eb-9bf1-db78e8ed6e06.png)
+![Tabel1](https://user-images.githubusercontent.com/58472359/102003089-7a56c500-3d35-11eb-9689-bac04c7055d1.png)
+![Tabel2](https://user-images.githubusercontent.com/58472359/102003091-7b87f200-3d35-11eb-9c80-15f0daadcd68.png)
 
 ---
 ## CIDR (Classless Inter Domain Routing)
